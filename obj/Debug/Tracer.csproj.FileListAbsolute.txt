@@ -1,0 +1,12 @@
+C:\Users\Asus\BSUIR\part5\СПП\Tracer\bin\Debug\Tracer.dll
+C:\Users\Asus\BSUIR\part5\СПП\Tracer\bin\Debug\Tracer.pdb
+C:\Users\Asus\BSUIR\part5\СПП\Tracer\obj\Debug\Tracer.csprojAssemblyReference.cache
+C:\Users\Asus\BSUIR\part5\СПП\Tracer\obj\Debug\Tracer.csproj.CoreCompileInputs.cache
+C:\Users\Asus\BSUIR\part5\СПП\Tracer\obj\Debug\Tracer.dll
+C:\Users\Asus\BSUIR\part5\СПП\Tracer\obj\Debug\Tracer.pdb
+C:\Users\Asus\BSUIRtheory\part5\СПП\Tracer\bin\Debug\Tracer.dll
+C:\Users\Asus\BSUIRtheory\part5\СПП\Tracer\bin\Debug\Tracer.pdb
+C:\Users\Asus\BSUIRtheory\part5\СПП\Tracer\obj\Debug\Tracer.csprojAssemblyReference.cache
+C:\Users\Asus\BSUIRtheory\part5\СПП\Tracer\obj\Debug\Tracer.csproj.CoreCompileInputs.cache
+C:\Users\Asus\BSUIRtheory\part5\СПП\Tracer\obj\Debug\Tracer.dll
+C:\Users\Asus\BSUIRtheory\part5\СПП\Tracer\obj\Debug\Tracer.pdb
