@@ -41,6 +41,7 @@
     <Compile Include="ITracer.cs" />
     <Compile Include="Method.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SerializableDictionary.cs" />
     <Compile Include="SimpleTracer.cs" />
     <Compile Include="TraceResult.cs" />
   </ItemGroup>

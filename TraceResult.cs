@@ -4,13 +4,14 @@ using System.Collections.Generic;
 
 namespace Tracer
 {
+    [Serializable]
     public class TraceResult
     {
-        public ConcurrentDictionary<int,List<Method>> ThreadMethods { get; internal set; }
+        public SerializableDictionary ThreadMethods { get; set; }
 
         public TraceResult()
         {
-            ThreadMethods = new ConcurrentDictionary<int, List<Method>>();
+            ThreadMethods = new SerializableDictionary();
         }
     }
 }

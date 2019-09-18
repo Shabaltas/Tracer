@@ -41,6 +41,7 @@ namespace Tracer
                 {
                     temp = temp.InnerMethods[temp.InnerMethods.Count - 1];
                 }
+                //if (temp.InnerMethods == null) temp.InnerMethods = new List<Method>();
                 temp.InnerMethods.Add(currentMethod); 
             }
             methodsStack.Push(currentMethod);

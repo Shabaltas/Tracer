@@ -2,6 +2,7 @@
 using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Threading;
+using SimpleSerializer;
 using Tracer;
 
 namespace ConsoleApplication
@@ -18,6 +19,10 @@ namespace ConsoleApplication
             thread.Start(); 
             thread.Join();
             TraceResult traceResult = simpleTracer.GetTraceResult();
+            Console.WriteLine(new JsonSerializer<TraceResult>().Serialize(traceResult));
+            Console.WriteLine("============================================");
+            Console.WriteLine(new CustomXmlSerializer<TraceResult>().Serialize(traceResult));
+            Console.WriteLine("============================================");
             IEnumerator<KeyValuePair<int, List<Method>>> enumerator = traceResult.ThreadMethods.GetEnumerator();
             while (enumerator.MoveNext())
             {

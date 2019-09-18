@@ -16,3 +16,7 @@ C:\Users\Asus\BSUIRtheory\part5\СПП\Tracer\ConsoleApplication\obj\Debug\Conso
 C:\Users\Asus\BSUIRtheory\part5\СПП\Tracer\ConsoleApplication\obj\Debug\ConsoleApplication.csproj.CopyComplete
 C:\Users\Asus\BSUIRtheory\part5\СПП\Tracer\ConsoleApplication\obj\Debug\ConsoleApplication.exe
 C:\Users\Asus\BSUIRtheory\part5\СПП\Tracer\ConsoleApplication\obj\Debug\ConsoleApplication.pdb
+C:\Users\Asus\BSUIRtheory\part5\СПП\Tracer\ConsoleApplication\bin\Debug\SimpleSerializer.dll
+C:\Users\Asus\BSUIRtheory\part5\СПП\Tracer\ConsoleApplication\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Asus\BSUIRtheory\part5\СПП\Tracer\ConsoleApplication\bin\Debug\SimpleSerializer.pdb
+C:\Users\Asus\BSUIRtheory\part5\СПП\Tracer\ConsoleApplication\bin\Debug\Newtonsoft.Json.xml

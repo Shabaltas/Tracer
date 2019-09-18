@@ -4,13 +4,14 @@ using System.Collections.Generic;
 
 namespace Tracer
 {
+    [Serializable]
     public class Method
     {
-        public string Name { get; internal set; }
-        public string ClassName { get; internal set; }
-        public double WorkingSeconds { get; internal set; }
-        public List<Method> InnerMethods { get; internal set; }
-
+        public string Name { get;  set; }
+        public string ClassName { get;  set; }
+        public double WorkingSeconds { get;  set; }
+        public List<Method> InnerMethods { get;  set; }
+   
         public override string ToString()
         {
             return "name = " + Name + ", class = " + ClassName + ", seconds = " + WorkingSeconds;
