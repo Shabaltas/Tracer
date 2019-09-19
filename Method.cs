@@ -9,11 +9,22 @@ namespace Tracer
     [Serializable]
     public class Method : IXmlSerializable
     {
-        public string Name { get;  set; }
-        public string ClassName { get;  set; }
-        public double WorkingSeconds { get;  set; }
-        public List<Method> InnerMethods { get;  set; }
-   
+        public string Name { get; internal set; }
+        public string ClassName { get; internal set; }
+        public double WorkingSeconds { get; internal set; }
+        public List<Method> InnerMethods { get; internal set; }
+
+        public Method()
+        {
+            
+        }
+        public Method(string name, string className, double workingSeconds, List<Method> innerMethods)
+        {
+            Name = name;
+            ClassName = className;
+            WorkingSeconds = workingSeconds;
+            InnerMethods = innerMethods;
+        }
         public override string ToString()
         {
             return "name = " + Name + ", class = " + ClassName + ", seconds = " + WorkingSeconds;

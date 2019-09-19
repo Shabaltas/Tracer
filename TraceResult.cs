@@ -11,7 +11,7 @@ namespace Tracer
     public class TraceResult : IXmlSerializable
     {
         public Dictionary<int, List<Method>> ThreadMethods {get; }   
-        public TraceResult()
+        internal TraceResult()
         {
             ThreadMethods = new Dictionary<int, List<Method>>();
         }

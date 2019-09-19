@@ -19,12 +19,8 @@ namespace ConsoleApplication
             thread.Start(); 
             thread.Join(); 
             TraceResult traceResult = simpleTracer.GetTraceResult();
-            //Console.WriteLine(new JsonSerializer<TraceResult>().Serialize(traceResult));
-            //Console.WriteLine("============================================");
-            //Console.WriteLine();
-            //Console.WriteLine("============================================");
-            new FileWriter().Write("C:\\Users\\Asus\\Desktop\\result.txt", new JsonSerializer<TraceResult>().Serialize(traceResult));
-            new ConsoleWriter().Write(new CustomXmlSerializer<TraceResult>().Serialize(traceResult));
+            new FileWriter().Write("C:\\Users\\Asus\\Desktop\\result.txt", new CustomXmlSerializer<TraceResult>().Serialize(traceResult));
+            new ConsoleWriter().Write(new JsonSerializer<TraceResult>().Serialize(traceResult));
             IEnumerator<KeyValuePair<int, List<Method>>> enumerator = traceResult.ThreadMethods.GetEnumerator();
             while (enumerator.MoveNext())
             {

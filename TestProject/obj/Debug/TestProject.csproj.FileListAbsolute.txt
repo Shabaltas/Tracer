@@ -7,3 +7,10 @@ C:\Users\Asus\BSUIRtheory\part5\СПП\Tracer\TestProject\obj\Debug\TestProject.
 C:\Users\Asus\BSUIRtheory\part5\СПП\Tracer\TestProject\obj\Debug\TestProject.csproj.CopyComplete
 C:\Users\Asus\BSUIRtheory\part5\СПП\Tracer\TestProject\obj\Debug\TestProject.dll
 C:\Users\Asus\BSUIRtheory\part5\СПП\Tracer\TestProject\obj\Debug\TestProject.pdb
+C:\Users\Asus\BSUIRtheory\part5\СПП\Tracer\TestProject\bin\Debug\SimpleSerializer.dll
+C:\Users\Asus\BSUIRtheory\part5\СПП\Tracer\TestProject\bin\Debug\Tracer.dll
+C:\Users\Asus\BSUIRtheory\part5\СПП\Tracer\TestProject\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Asus\BSUIRtheory\part5\СПП\Tracer\TestProject\bin\Debug\SimpleSerializer.pdb
+C:\Users\Asus\BSUIRtheory\part5\СПП\Tracer\TestProject\bin\Debug\Tracer.pdb
+C:\Users\Asus\BSUIRtheory\part5\СПП\Tracer\TestProject\bin\Debug\nunit.framework.pdb
+C:\Users\Asus\BSUIRtheory\part5\СПП\Tracer\TestProject\bin\Debug\Newtonsoft.Json.xml
