@@ -8,11 +8,14 @@ namespace SimpleSerializer
         public string Serialize(T obj)
         {
             return JsonConvert.SerializeObject(obj);
+            //.Replace("{", " {\n")
+            //.Replace("}", "\n}\n");
         }
 
         public T Deserialize(string json)
         {
-            return JsonConvert.DeserializeObject<T>(json);
+            throw new NotImplementedException();
+            //return JsonConvert.DeserializeObject<T>(json);
         }
     }
 }

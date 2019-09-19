@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TraceResult>
+  <thread id="1">
+    <Method name="methodParent" class="Parent" time="354.046875">
+      <Method name="method" class="Child" time="100.8828125" />
+      <Method name="method" class="Child" time="100.7734375" />
+    </Method>
+    <Method name="methodParent" class="Parent" time="352.15625">
+      <Method name="method" class="Child" time="100.6953125" />
+      <Method name="method" class="Child" time="101.0078125" />
+    </Method>
+  </thread>
+  <thread id="3">
+    <Method name="methodParent" class="Parent" time="353.4921875">
+      <Method name="method" class="Child" time="101.734375" />
+      <Method name="method" class="Child" time="101.1953125" />
+    </Method>
+  </thread>
+</TraceResult>

@@ -1,0 +1,6 @@
+C:\Users\Asus\BSUIRtheory\part5\СПП\Tracer\Output\bin\Debug\Output.dll
+C:\Users\Asus\BSUIRtheory\part5\СПП\Tracer\Output\bin\Debug\Output.pdb
+C:\Users\Asus\BSUIRtheory\part5\СПП\Tracer\Output\obj\Debug\Output.csprojAssemblyReference.cache
+C:\Users\Asus\BSUIRtheory\part5\СПП\Tracer\Output\obj\Debug\Output.csproj.CoreCompileInputs.cache
+C:\Users\Asus\BSUIRtheory\part5\СПП\Tracer\Output\obj\Debug\Output.dll
+C:\Users\Asus\BSUIRtheory\part5\СПП\Tracer\Output\obj\Debug\Output.pdb

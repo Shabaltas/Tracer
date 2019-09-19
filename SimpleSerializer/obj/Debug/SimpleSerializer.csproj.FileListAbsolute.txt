@@ -1,11 +1,11 @@
 C:\Users\Asus\BSUIRtheory\part5\СПП\Tracer\SimpleSerializer\bin\Debug\SimpleSerializer.dll
 C:\Users\Asus\BSUIRtheory\part5\СПП\Tracer\SimpleSerializer\bin\Debug\SimpleSerializer.pdb
-C:\Users\Asus\BSUIRtheory\part5\СПП\Tracer\SimpleSerializer\bin\Debug\Newtonsoft.Json.dll
 C:\Users\Asus\BSUIRtheory\part5\СПП\Tracer\SimpleSerializer\bin\Debug\Tracer.dll
 C:\Users\Asus\BSUIRtheory\part5\СПП\Tracer\SimpleSerializer\bin\Debug\Tracer.pdb
-C:\Users\Asus\BSUIRtheory\part5\СПП\Tracer\SimpleSerializer\bin\Debug\Newtonsoft.Json.xml
 C:\Users\Asus\BSUIRtheory\part5\СПП\Tracer\SimpleSerializer\obj\Debug\SimpleSerializer.csprojAssemblyReference.cache
 C:\Users\Asus\BSUIRtheory\part5\СПП\Tracer\SimpleSerializer\obj\Debug\SimpleSerializer.csproj.CoreCompileInputs.cache
 C:\Users\Asus\BSUIRtheory\part5\СПП\Tracer\SimpleSerializer\obj\Debug\SimpleSerializer.csproj.CopyComplete
 C:\Users\Asus\BSUIRtheory\part5\СПП\Tracer\SimpleSerializer\obj\Debug\SimpleSerializer.dll
 C:\Users\Asus\BSUIRtheory\part5\СПП\Tracer\SimpleSerializer\obj\Debug\SimpleSerializer.pdb
+C:\Users\Asus\BSUIRtheory\part5\СПП\Tracer\SimpleSerializer\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Asus\BSUIRtheory\part5\СПП\Tracer\SimpleSerializer\bin\Debug\Newtonsoft.Json.xml

@@ -44,6 +44,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Output\Output.csproj">
+      <Project>{5bdfa7c7-b771-44c1-8dce-704efebae4c7}</Project>
+      <Name>Output</Name>
+    </ProjectReference>
     <ProjectReference Include="..\SimpleSerializer\SimpleSerializer.csproj">
       <Project>{d140163c-c13e-48ec-ace7-b886fda45afb}</Project>
       <Name>SimpleSerializer</Name>
