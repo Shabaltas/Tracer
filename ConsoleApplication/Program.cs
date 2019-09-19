@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Threading;
 using SimpleSerializer;
@@ -17,7 +16,7 @@ namespace ConsoleApplication
             parent.methodParent();
             Thread thread = new Thread(parent.methodParent);
             thread.Start(); 
-            thread.Join();
+            thread.Join(); 
             TraceResult traceResult = simpleTracer.GetTraceResult();
             Console.WriteLine(new JsonSerializer<TraceResult>().Serialize(traceResult));
             Console.WriteLine("============================================");

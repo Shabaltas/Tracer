@@ -1,0 +1,9 @@
+C:\Users\Asus\BSUIRtheory\part5\СПП\Tracer\TestProject\bin\Debug\TestProject.dll
+C:\Users\Asus\BSUIRtheory\part5\СПП\Tracer\TestProject\bin\Debug\TestProject.pdb
+C:\Users\Asus\BSUIRtheory\part5\СПП\Tracer\TestProject\bin\Debug\nunit.framework.dll
+C:\Users\Asus\BSUIRtheory\part5\СПП\Tracer\TestProject\bin\Debug\nunit.framework.xml
+C:\Users\Asus\BSUIRtheory\part5\СПП\Tracer\TestProject\obj\Debug\TestProject.csprojAssemblyReference.cache
+C:\Users\Asus\BSUIRtheory\part5\СПП\Tracer\TestProject\obj\Debug\TestProject.csproj.CoreCompileInputs.cache
+C:\Users\Asus\BSUIRtheory\part5\СПП\Tracer\TestProject\obj\Debug\TestProject.csproj.CopyComplete
+C:\Users\Asus\BSUIRtheory\part5\СПП\Tracer\TestProject\obj\Debug\TestProject.dll
+C:\Users\Asus\BSUIRtheory\part5\СПП\Tracer\TestProject\obj\Debug\TestProject.pdb

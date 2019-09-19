@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace SimpleSerializer
+﻿namespace SimpleSerializer
 {
     public interface ISerializer<T>
     {
