@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Xml;
 using System.Xml.Schema;
 using System.Xml.Serialization;
@@ -10,11 +11,13 @@ namespace Tracer
     [XmlRoot("")]
     public class TraceResult : IXmlSerializable
     {
-        public Dictionary<int, List<Method>> ThreadMethods {get; }   
-        internal TraceResult()
+        public ReadOnlyDictionary<int, List<Method>> ThreadMethods {get; }   
+        internal TraceResult(IDictionary<int, List<Method>> threadMethods)
         {
-            ThreadMethods = new Dictionary<int, List<Method>>();
+            ThreadMethods = new ReadOnlyDictionary<int, List<Method>>(threadMethods);
         }
+        
+        internal TraceResult() {}
 
         public XmlSchema GetSchema()
         {

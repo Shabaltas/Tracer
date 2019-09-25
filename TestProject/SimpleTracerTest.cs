@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Threading;
 using NUnit.Framework;
 using Tracer;
@@ -25,7 +26,7 @@ namespace TestProject
         {
             ITracer tracer = new SimpleTracer();
             new Helper(tracer).Method2();
-            Dictionary<int, List<Method>> traceResult = tracer.GetTraceResult().ThreadMethods;
+            ReadOnlyDictionary<int, List<Method>> traceResult = tracer.GetTraceResult().ThreadMethods;
             List<Method> method1InnerMethods = traceResult[Thread.CurrentThread.ManagedThreadId][0].InnerMethods; 
             Assert.AreEqual(2, method1InnerMethods.Count);
             Assert.AreEqual(method1InnerMethods[0].Name, method1InnerMethods[1].Name);
@@ -37,7 +38,7 @@ namespace TestProject
         {
             ITracer tracer = new SimpleTracer();
             new Helper(tracer).Method1();
-            Dictionary<int, List<Method>> traceResult = tracer.GetTraceResult().ThreadMethods;
+            ReadOnlyDictionary<int, List<Method>> traceResult = tracer.GetTraceResult().ThreadMethods;
             Assert.AreEqual(2, traceResult[Thread.CurrentThread.ManagedThreadId][0].InnerMethods.Count);
         }
         private class Helper

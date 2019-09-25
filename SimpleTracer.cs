@@ -60,12 +60,7 @@ namespace Tracer
 
         public TraceResult GetTraceResult()
         {
-            TraceResult traceResult = new TraceResult(); 
-            foreach (var threadsInfo in _traceResult)
-            {
-                traceResult.ThreadMethods.Add(threadsInfo.Key, threadsInfo.Value);
-            }
-            return traceResult;
+            return new TraceResult(_traceResult);
         }
     }
 }
